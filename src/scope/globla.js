@@ -1,6 +1,6 @@
 /*
     las variables con var , permiten sobreescribirlas , esto es una mala practica, por esta razon es mejor usar let y const
-    ya que no permiten sobreescribir o reasignar
+    ya que no permiten sobreescribir o reasignar ,MALA PRACTICA
 */
 ///////// Ejemplo 1
 var hello = 'Hello';
@@ -30,4 +30,4 @@ const anotherExample = () =>{
 }
 
 anotherExample();
-console.log(localVar);
+console.log(globalVar);
