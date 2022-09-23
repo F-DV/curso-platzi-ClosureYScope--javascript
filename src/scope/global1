@@ -1,0 +1,25 @@
+var a; //Declaracion
+var b = 'b'; // declaramos y asignamos
+var b = 'bb' // Reasignacion
+var a = 'aa' // Redeclaracion
+
+// Global Scope
+var fruit = 'Apple'; //global
+console.log(fruit);
+
+function bestFruit(){
+    console.log(fruit);
+}
+
+bestFruit();
+
+//Cuando no declaramos un variable y simplemente la asignamos por defecto
+//pasa a ser una variable global var
+
+function countries(){
+    country = 'Colombia';
+    console.log(country);
+}
+
+countries();
+console.log(country);

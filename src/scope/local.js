@@ -26,3 +26,11 @@ const functionScope = () =>{
 
 functionScope();
 console.log(scope);
+
+
+////Ejemplo Local Scope
+const fruits = () => { 
+    var fruit = 'apple'; 
+    console.log(fruit); 
+};
+fruits();

@@ -27,12 +27,14 @@ let x = 1;
 console.log(x);
 
 //Ejemplo 3 :  
+/*
 var x = 1;
 {
     var x = 2;
     console.log(x);
 }
 console.log(x);
+/*
 
 //Ejmeplo 3: El console.log dentro del setTimeout es llevado al navegador y luego al callback queue, el for
             //sigue recorriendo hasta uqe el call stack termina y luego si le da paso al setTimeout, lo cuiroso es que
